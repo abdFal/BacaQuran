@@ -108,7 +108,7 @@ Column _salam(value) => Column(
           height: 4,
         ),
         Text(
-          value,
+          "Naufal",
           style: GoogleFonts.poppins(fontSize: 28, fontWeight: FontWeight.bold),
         ),
         const SizedBox(
@@ -138,7 +138,7 @@ Column _salam(value) => Column(
                     children: [
                       SvgPicture.asset('assets/svg/book.svg'),
                       SizedBox(
-                        width: 10,
+                        width: 8,
                       ),
                       Text(
                         "Last Read",
